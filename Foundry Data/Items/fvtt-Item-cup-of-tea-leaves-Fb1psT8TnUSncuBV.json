@@ -1,0 +1,54 @@
+{
+  "name": "Cup of Tea Leaves",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p>Used for divining via @UUID[Item.VCl4G5gGtBW0oubu]{Spirit Medium}</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "properties": [],
+    "type": {
+      "value": "resource",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752960998964,
+    "modifiedTime": 1752961137222,
+    "lastModifiedBy": "auLJiRo6QhV6AeAi",
+    "exportSource": {
+      "worldId": "multiplanar-campaign-martin",
+      "uuid": "Item.Fb1psT8TnUSncuBV",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

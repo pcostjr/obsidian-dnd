@@ -1,0 +1,270 @@
+{
+  "name": "Spirit Medium",
+  "type": "feat",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {
+      "sJaPBGH474AWgTTh": {
+        "type": "check",
+        "_id": "sJaPBGH474AWgTTh",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "arc",
+            "rel"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "ability": ""
+        },
+        "name": ""
+      },
+      "bRwEMjgP4mMX0Uws": {
+        "type": "utility",
+        "_id": "bRwEMjgP4mMX0Uws",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "UEcTr8nwclJvjmVs"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>After a fateful experience, you believe you’re aligned with spirits and can serve as a conduit for their insights and goals. You have advantage on any Arcana or Religion check you make to remember or research information about spirits and the afterlife.</p><p>Additionally, you begin your adventuring career with a custom-made device for communing with otherworldly forces, perhaps a spirit board, a tarokka deck, an automatic writing planchette, dowsing rods, a cup for tea leaves, or a device of your own design.</p><p>Add your proficiency bonus to any ability check you make using this type of divining tool.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "background",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Divination",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "origin": "Item.VCl4G5gGtBW0oubu",
+      "_id": "UEcTr8nwclJvjmVs",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "@abilities.*.checkProf",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "createdTime": 1752960758298,
+        "modifiedTime": 1752961207585,
+        "lastModifiedBy": "auLJiRo6QhV6AeAi"
+      }
+    },
+    {
+      "name": "Advantage",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "origin": "Item.VCl4G5gGtBW0oubu",
+      "_id": "9dEIpYeRX1gd6b0v",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You have advantage on any Arcana or Religion check you make to remember or research information about spirits and the afterlife.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "createdTime": 1752961210195,
+        "modifiedTime": 1752961247338,
+        "lastModifiedBy": "auLJiRo6QhV6AeAi"
+      }
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752959668282,
+    "modifiedTime": 1752961158274,
+    "lastModifiedBy": "auLJiRo6QhV6AeAi",
+    "exportSource": {
+      "worldId": "multiplanar-campaign-martin",
+      "uuid": "Item.VCl4G5gGtBW0oubu",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

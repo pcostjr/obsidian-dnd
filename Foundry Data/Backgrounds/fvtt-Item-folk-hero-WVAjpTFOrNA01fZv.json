@@ -1,0 +1,176 @@
+{
+  "name": "Folk Hero",
+  "type": "background",
+  "img": "assets/Character%20Data/backgrounds.png",
+  "system": {
+    "description": {
+      "value": "<p>You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.</p><ul class=\"unstyled\"><li><strong>Skill Proficiencies:</strong> Animal Handling, Survival</li><li><strong>Tool Proficiencies:</strong> One type of artisan’s tools, vehicles (land)</li><li><strong>Equipment:</strong> A set of artisan’s tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp</li></ul>",
+      "chat": ""
+    },
+    "identifier": "background",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "kEiCdxayU22anuuq",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ],
+          "grants": [
+            "skills:ani",
+            "skills:sur",
+            "tool:vehicle:land"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "6mq10F8JgDOmqS7s",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.Y9S75go1hLMXUD48"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.jhjo20QoiD5exf09"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.8NS6MSOdXtUqD7Ib"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.fC0lFK8P4RuhpfaU"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.hM84pZnpCqKfi8XH"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.Gflnp29aEv5Lc1ZM"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.rTbVrNcwApnuTz5E"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.YfBwELTgPFHmQdHh"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.PUMfwyVUbtyxgYbD"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.skUih6tBvcBbORzA"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.ccm5xlWhx74d6lsK"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.hJS8yEVkqgJjwfWa"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.KndVe2insuctjIaj"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.0d08g1i5WXnNrCNA"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.ap9prThUB2y9lDyj"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.xKErqkLo4ASYr5EP"
+            }
+          ],
+          "spell": null,
+          "type": "tool",
+          "restriction": {}
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Artisan's Tools",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "OvhLcKqVf6BjOMny",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.items.Item.qWlXDEgqdmdZWoab",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "_id": "ioXFrJpErJIg9cv5",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Rustic Hospitality",
+        "hint": "Since you come from the ranks of the common folk,\nyou fit in among them with ease. You can find a\nplace to hide, rest, or recuperate among other\ncommoners, unless you have shown yourself to be a\ndanger to them. They will shield you from the law or\nanyone else searching for you, though they will not\nrisk their lives for you.",
+        "value": {}
+      }
+    ],
+    "wealth": "10"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752911232002,
+    "modifiedTime": 1752953883123,
+    "lastModifiedBy": "auLJiRo6QhV6AeAi",
+    "exportSource": {
+      "worldId": "multiplanar-campaign-martin",
+      "uuid": "Item.WVAjpTFOrNA01fZv",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

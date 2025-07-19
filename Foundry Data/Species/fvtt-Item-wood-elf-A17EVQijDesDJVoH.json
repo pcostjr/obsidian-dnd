@@ -1,0 +1,186 @@
+{
+  "name": "Wood Elf",
+  "type": "race",
+  "img": "assets/Character%20Data/Dannae.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p><p class=\"indent\"><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 1.</p><p class=\"indent\"><em><strong>Elf Weapon Training.</strong></em> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p><p class=\"indent\"><em><strong>Fleet of Foot.</strong></em> Your base walking speed increases to 35 feet.</p><p class=\"indent\"><em><strong>Mask of the Wild.</strong></em> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>",
+      "chat": ""
+    },
+    "identifier": "race",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "SY4ONdszW6ljZJQG",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 1,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "L53eKYnTj6XIF7jD",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:elvish"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "YGdzvgez9yNNyKOh",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "4rRqhPXk97XBM7pw",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim:shortbow",
+            "weapon:mar:longbow",
+            "weapon:mar:longsword",
+            "weapon:mar:shortsword"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Elf Weapon Training",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "PiW6q5JoO6yrC38t",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Mask of the Wild",
+        "hint": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "jnlWzuy4JlVvtJ8D",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.races.Item.cnTbpPPeGW7vGjOV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.races.Item.4v2PiBrAbqDizdSJ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "_id": "bZZ4uzQ5kzSeWhQo",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:prc"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Keen Senses (Elf)",
+        "hint": "",
+        "icon": "icons/creatures/eyes/human-single-brown.webp",
+        "value": {}
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 35,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Elf"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752952975945,
+    "modifiedTime": 1752958573647,
+    "lastModifiedBy": "auLJiRo6QhV6AeAi",
+    "exportSource": {
+      "worldId": "multiplanar-campaign-martin",
+      "uuid": "Item.A17EVQijDesDJVoH",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

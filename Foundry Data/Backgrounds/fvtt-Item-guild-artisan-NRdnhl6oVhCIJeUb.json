@@ -1,0 +1,196 @@
+{
+  "name": "Guild Artisan",
+  "type": "background",
+  "img": "assets/Character%20Data/randy_gallegos_guild_artisan.jpg",
+  "system": {
+    "description": {
+      "value": "<p>You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.</p><ul class=\"unstyled\"><li><strong>Skill Proficiencies:</strong>Insight, Persuasion</li><li><strong>Tool Proficiencies:</strong>One type of artisan’s tools</li><li><strong>Languages:</strong>One of your choice</li><li><strong>Equipment:</strong>A set of artisan’s tools (one of your choice), a letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 15 gp</li></ul><h5>GUILD BUSINESS</h5><p>Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly.</p><table><thead><tr><td>d20</td><td>Guild Business</td></tr></thead><tbody><tr><td>1</td><td>Alchemists and apothecaries</td></tr><tr><td>2</td><td>Armorers, locksmiths, and finesmiths</td></tr><tr><td>3</td><td>Brewers, distillers, and vintners</td></tr><tr><td>4</td><td>Calligraphers, scribes, and scriveners</td></tr><tr><td>5</td><td>Carpenters, roofers, and plasterers</td></tr><tr><td>6</td><td>Cartographers, surveyors, and chart-makers</td></tr><tr><td>7</td><td>Cobblers and shoemakers</td></tr><tr><td>8</td><td>Cooks and bakers</td></tr><tr><td>9</td><td>Glassblowers and glaziers</td></tr><tr><td>10</td><td>Jewelers and gemcutters</td></tr><tr><td>11</td><td>Leatherworkers, skinners, and tanners</td></tr><tr><td>12</td><td>Masons and stonecutters</td></tr><tr><td>13</td><td>Painters, limners, and sign-makers</td></tr><tr><td>14</td><td>Potters and tile-makers</td></tr><tr><td>15</td><td>Shipwrights and sailmakers</td></tr><tr><td>16</td><td>Smiths and metal-forgers</td></tr><tr><td>17</td><td>Tinkers, pewterers, and casters</td></tr><tr><td>18</td><td>Wagon-makers and wheelwrights</td></tr><tr><td>19</td><td>Weavers and dyers</td></tr><tr><td>20</td><td>Woodcarvers, coopers, and bowyer</td></tr></tbody></table><p>As a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan’s tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together.</p><div><h5>SUGGESTED CHARACTERISTICS</h5><p>Guild artisans are among the most ordinary people in the world—until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they’re vulnerable to sins of greed and covetousness.</p><h4>VARIANT GUILD ARTISAN : GUILD MERCHANT</h4><p>Instead of an artisans’ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant’s life lends itself to adventure far more than the life of an artisan.</p><p class=\"indent\">Rather than proficiency with artisan’s tools, you might be proficient with navigator’s tools or an additional language. And instead of artisan’s tools, you can start with a mule and a cart.</p></div>",
+      "chat": ""
+    },
+    "identifier": "background",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "YcKAN46i3ovc96U7",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:ins",
+            "skills:per"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "9wgEbaAEingXiOA6",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Tool Proficiencies",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "xUI4cNr8ZJHaHXwo",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Languages",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "6mq10F8JgDOmqS7s",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.Y9S75go1hLMXUD48"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.jhjo20QoiD5exf09"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.8NS6MSOdXtUqD7Ib"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.fC0lFK8P4RuhpfaU"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.hM84pZnpCqKfi8XH"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.Gflnp29aEv5Lc1ZM"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.rTbVrNcwApnuTz5E"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.YfBwELTgPFHmQdHh"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.PUMfwyVUbtyxgYbD"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.skUih6tBvcBbORzA"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.ccm5xlWhx74d6lsK"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.hJS8yEVkqgJjwfWa"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.KndVe2insuctjIaj"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.0d08g1i5WXnNrCNA"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.ap9prThUB2y9lDyj"
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.xKErqkLo4ASYr5EP"
+            }
+          ],
+          "spell": null,
+          "type": "tool",
+          "restriction": {}
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Artisan's Tools",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "M7hadY7VnJL6uTel",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Item.rzazgGbgoTTdfjrb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.9bWTRRDym06PzSAf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "wealth": "15"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752952135929,
+    "modifiedTime": 1752954289299,
+    "lastModifiedBy": "auLJiRo6QhV6AeAi",
+    "exportSource": {
+      "worldId": "multiplanar-campaign-martin",
+      "uuid": "Item.NRdnhl6oVhCIJeUb",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}
