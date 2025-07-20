@@ -1,0 +1,54 @@
+{
+  "name": "Ancient Gold Coin (Trinket)",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+    "description": {
+      "value": "<p>A gold coin minted in a fallen civilization.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "properties": [],
+    "type": {
+      "value": "treasure",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752977256457,
+    "modifiedTime": 1752977284755,
+    "lastModifiedBy": "OC4F7v1qKG7ah2bb",
+    "exportSource": {
+      "worldId": "multiplanar-campaign",
+      "uuid": "Item.oOEgiM7Tri9VsbGT",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

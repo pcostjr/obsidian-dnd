@@ -1,0 +1,106 @@
+{
+  "name": "Haunted One",
+  "type": "background",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are haunted by something so terrible that you dare not speak of it. You’ve tried to bury it and flee from it to no avail. This thing that haunts you can’t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from others and making you question your sanity. You must find a way to overcome it before it destroys you.</p><ul class=\"unstyled\"><li><strong>Skill Proficiencies:</strong> Choose two from among Arcana, Investigation, Religion, and Survival</li><li><strong>Languages:</strong> Choose one exotic language (Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, or Undercommon)</li><li><strong>Equipment:</strong> A monster hunter’s pack, a set of common clothes, and one trinket of special significance (see below), and a belt pouch containing 15 gp.</li></ul><h5>HARROWING EVENT</h5><p>Prior to becoming an adventurer, your path in life was defined by one dark moment, one fateful decision, or one tragedy. Now you feel a darkness threatening to consume you, and you fear there may be no hope of escape. Choose a harrowing event that haunts you, or roll one on the Harrowing Events table.</p><table><thead><tr><td>d10</td><td>Harrowing Event</td></tr></thead><tbody><tr><td>1</td><td>A monster that slaughtered dozens of innocent people spared your life, and you don’t know why.</td></tr><tr><td>2</td><td>You were born under a dark star. You can feel it watching you, coldly and distantly. Sometimes it beckons you in the dead of night.</td></tr><tr><td>3</td><td>An apparition that has haunted your family for generations now haunts you. You don’t know what it wants, and it won’t leave you alone.</td></tr><tr><td>4</td><td>Your family has a history of practicing the dark arts. You dabbled once and felt something horrible clutch at your soul, whereupon you fled in terror.</td></tr><tr><td>5</td><td>An oni took your sibling one cold, dark night, and you were unable to stop it.</td></tr><tr><td>6</td><td>You were cursed with lycanthropy and later cured. You are now haunted by the innocents you slaughtered.</td></tr><tr><td>7</td><td>A hag kidnapped and raised you. You escaped, but the hag still has a magical hold over you and fills your mind with evil thoughts.</td></tr><tr><td>8</td><td>You opened an eldritch tome and saw things unfit for a sane mind. You burned the book, but its words and images are burned into your psyche.</td></tr><tr><td>9</td><td>A fiend possessed you as a child. You were locked away but escaped. The fiend is still inside you, but now you try to keep it locked away.</td></tr><tr><td>10</td><td>You did terrible things to avenge the murder of someone you loved. You became a monster, and it haunts your waking dreams.</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "haunted-one",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "DhZUj2PzOQ6TZjSB",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:inv",
+                "skills:rel",
+                "skills:sur"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "wVfboWvi8xs7iNhb",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard:draconic",
+                "languages:exotic:abyssal",
+                "languages:exotic:celestial",
+                "languages:exotic:deep",
+                "languages:exotic:infernal",
+                "languages:exotic:primordial",
+                "languages:exotic:sylvan",
+                "languages:exotic:undercommon"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "TuZwIc8Nco1zoJbo",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "wealth": "15"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752973955600,
+    "modifiedTime": 1752975138554,
+    "lastModifiedBy": "OC4F7v1qKG7ah2bb",
+    "exportSource": {
+      "worldId": "multiplanar-campaign",
+      "uuid": "Item.3MkgPoGM9UfpCkjD",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

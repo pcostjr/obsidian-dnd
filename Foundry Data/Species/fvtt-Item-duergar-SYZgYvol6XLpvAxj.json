@@ -1,0 +1,232 @@
+{
+  "name": "Duergar",
+  "type": "race",
+  "img": "assets/Character%20Data/Duergar.png",
+  "system": {
+    "description": {
+      "value": "<p>Duergar are dwarves whose ancestors were transformed by centuries living in the deepest places of the Underdark. That chthonic realm is saturated with strange magical energy, and over generations, early duergar absorbed traces of it. They were further altered when mind flayers and other Aberrations invaded and performed horrific experiments on them. Fueled by Underdark magic, those experiments left early duergar with psionic powers, which have been passed down to their descendants. In time, they liberated themselves from their aberrant tyrants and forged a new life for themselves in the Underdark and beyond.</p><p class=\"indent\">Like other dwarves, duergar typically have a life span of 350 years.</p><h4>DUERGAR TRAITS</h4><p>You have the following racial traits.</p><p class=\"indent\"><em><strong>Ability Score Increases.</strong></em> When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.</p><p class=\"indent\"><em><strong>Languages.</strong></em> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p><p class=\"indent\"><em><strong>Creature Type.</strong></em> You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.</p><p class=\"indent\"><em><strong>Size.</strong></em> You are Medium.</p><p class=\"indent\"><em><strong>Speed.</strong></em> Your walking speed is 30 feet.</p><p class=\"indent\"><em><strong>Darkvision.</strong></em> You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p><p class=\"indent\"><em><strong>Duergar Magic.</strong></em> Starting at 3rd level, you can cast the enlarge/reduce spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the invisibility spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p><p class=\"indent\">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p><p class=\"indent\"><em><strong>Dwarven Resilience.</strong></em> You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p><p class=\"indent\"><em><strong>Psionic Fortitude.</strong></em> You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.</p>",
+      "chat": ""
+    },
+    "identifier": "duergar",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "UzoVp6cunq2SwUKc",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 3
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "vFnK6lK4se6NcH8h",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:dwarvish",
+            "languages:exotic:undercommon"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "mY06NQx2EKzmSm1y",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Kw5WdEPx9QKNFs9H",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.races.Item.ufysTkqet2Ctmtyi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.races.Item.mQPZDRbUhgYTbXKa",
+              "optional": false
+            },
+            {
+              "uuid": "Item.sNQgfbohzfW4B5bH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "_id": "4jUCA4d7iBJeNNfB",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim:handaxe",
+            "weapon:sim:lighthammer",
+            "weapon:mar:battleaxe",
+            "weapon:mar:warhammer"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Dwarven Combat Training",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "NGNXFFzoqXwEGisO",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:brewer",
+                "tool:art:mason",
+                "tool:art:smith"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "7ZFZv17igRQcPwcc",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Item.TMMqLOKOrjbcUcD9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Duergar Magic",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "urSXfyNCS7bmgy85",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Item.8YkPHZuLxxwkNqse"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Duergar Magic",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "Dwarf",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752971592276,
+    "modifiedTime": 1752976673762,
+    "lastModifiedBy": "OC4F7v1qKG7ah2bb",
+    "exportSource": {
+      "worldId": "multiplanar-campaign",
+      "uuid": "Item.SYZgYvol6XLpvAxj",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}
