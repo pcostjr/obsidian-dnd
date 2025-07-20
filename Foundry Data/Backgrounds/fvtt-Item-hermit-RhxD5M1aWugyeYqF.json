@@ -1,0 +1,116 @@
+{
+  "name": "Hermit",
+  "type": "background",
+  "img": "icons/environment/wilderness/cave-entrance.webp",
+  "system": {
+    "description": {
+      "value": "<p>You lived in seclusion—either in a sheltered community such as a monastery, or entirely a lone—for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for.</p><ul class=\"unstyled\"><li><strong>Skill Proficiencies:</strong>Medicine, Religion</li><li><strong>Tool Proficiencies:</strong>Herbalism kit</li><li><strong>Languages:</strong>One of your choice</li><li><strong>Equipment:</strong>A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5 gp</li></ul><h5>LIFE OF SECLUSION</h5><p>What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion.</p><table><thead><tr><td>d8</td><td>Life of Seclusion</td></tr></thead><tbody><tr><td>1</td><td>I was searching for spiritual enlightenment.</td></tr><tr><td>2</td><td>I was partaking of communal living in accordance with the dictates of a religious order.</td></tr><tr><td>3</td><td>I was exiled for a crime I didn’t commit.</td></tr><tr><td>4</td><td>I retreated from society after a life-altering event.</td></tr><tr><td>5</td><td>I needed a quiet place to work on my art, literature, music, or manifesto.</td></tr><tr><td>6</td><td>I needed to commune with nature, far from civilization.</td></tr><tr><td>7</td><td>I was the caretaker of an ancient ruin or relic.</td></tr><tr><td>8</td><td>I was a pilgrim in search of a person, place, or relic of spiritual significance.</td></tr></tbody></table><div><h5>SUGGESTED CHARACTERISTICS</h5><p>Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society.</p><h5>OTHER HERMITS</h5><p>This hermit background assumes a contemplative sort of seclusion that allows room for study and prayer. If you want to play a rugged wilderness recluse who lives off the land while shunning the company of other people, look at the outlander background. On the other hand, if you want to go in a more religious direction, the acolyte might be what you’re looking for. Or you could even be a charlatan, posing as a wise and holy person and letting pious fools support you.</p></div>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "pCRhlySTUdiojkWU",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:med",
+            "skills:rel"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "8SI56hfut8dJSF6v",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:herb"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "bpvYy9bfNOxxIwXh",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Tvcvvk68u1Ertm94",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.items.Item.419eNv7xp2p7Xlo5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.items.Item.i89okN7GFTWHsvPy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "wealth": "5"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752991991234,
+    "modifiedTime": 1752992368143,
+    "lastModifiedBy": "OC4F7v1qKG7ah2bb",
+    "exportSource": {
+      "worldId": "multiplanar-campaign",
+      "uuid": "Item.RhxD5M1aWugyeYqF",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}

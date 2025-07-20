@@ -1,0 +1,55 @@
+{
+  "name": "Discovery",
+  "type": "feat",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "background",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752993250098,
+    "modifiedTime": 1752993299479,
+    "lastModifiedBy": "OC4F7v1qKG7ah2bb",
+    "exportSource": {
+      "worldId": "multiplanar-campaign",
+      "uuid": "Item.ZId4DcZukmmj3piH",
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "5.0.4"
+    }
+  }
+}
